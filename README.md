@@ -8,6 +8,8 @@
 
 Skill [Claude Code](https://claude.ai/claude-code) qui agrège les flux RSS de sources tech francophones et produit un récap des articles récents, trié par jour.
 
+![Démonstration de /veille](demo.gif)
+
 ## Table des matières
 
 - [Fonctionnalités](#fonctionnalités)
