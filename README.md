@@ -36,10 +36,7 @@ Depuis Claude Code, ajoutez le marketplace puis installez le plugin :
 
 ```
 /plugin marketplace add CamilleRoux/veille-techno
-```
-
-```
-/plugin install CamilleRoux/veille-techno@veille-techno
+/plugin install veille-techno@CamilleRoux-veille-techno
 ```
 
 Le skill sera disponible dans tous vos projets.
