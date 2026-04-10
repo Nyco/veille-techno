@@ -20,15 +20,16 @@ jobs:
         run: python3 -m py_compile skills/veille/fetch_feeds.py
 
       - name: Validate sources.yml is parseable
-        run: python3 -c "
+        run: |
+          python3 - <<'EOF'
           import sys; sys.path.insert(0, 'skills/veille')
           from fetch_feeds import load_sources
           sources = load_sources()
           assert len(sources) >= 1, 'No sources found'
           for s in sources:
-            assert 'name' in s and 'url' in s, f'Invalid source: {s}'
+              assert 'name' in s and 'url' in s, f'Invalid source: {s}'
           print(f'{len(sources)} sources OK')
-          "
+          EOF
 
       - name: Dry run fetch (timeout 30s)
         timeout-minutes: 1
