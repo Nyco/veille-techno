@@ -15,4 +15,4 @@ sources:
   - name: Dépêches LinuxFr.org
     url: https://linuxfr.org/news.atom
     site: https://linuxfr.org/
-    description: Actualités du Libre et Open Source 
+    description: Actualités du Libre et Open Source
