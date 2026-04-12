@@ -1,5 +1,6 @@
 # /veille -- Veille tech francophone pour Claude Code
 
+[![GitHub stars](https://img.shields.io/github/stars/CamilleRoux/veille-techno)](https://github.com/CamilleRoux/veille-techno/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blue)](https://claude.ai/claude-code)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB.svg)](https://www.python.org)
@@ -100,6 +101,7 @@ Dans Claude Code :
 |--------|-------------|
 | [Journal du Hacker](https://www.journalduhacker.net) | Agrégateur communautaire de news tech francophones |
 | [Human Coders News](https://news.humancoders.com) | Actualités dev collaboratives par et pour les développeurs |
+| [Dépêches LinuxFr.org](https://linuxfr.org) | Actualités du Libre et Open Source |
 
 ## Ajouter une source
 
